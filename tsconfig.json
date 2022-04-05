@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2019",
+        "lib": [
+            "dom",
+            "es2019"
+        ],
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "typeRoots": [
+            "./types",
+            "./node_modules/@types"
+        ],
+    },
+    "include": [
+        "src/**/*",
+        "express"
+    ],
+    "exclude": [
+        "node_modules",
+        ".vscode"
+    ]
+}
